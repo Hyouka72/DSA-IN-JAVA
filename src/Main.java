@@ -1,5 +1,10 @@
 public class Main{
     public static void main(String[] args) {
-        System.out.println("Hello DSA");
+        LinkedList list = new LinkedList();
+        list.insert(10);
+        list.insert(20);
+        list.insert(30);
+
+        list.display();
     }
 }
